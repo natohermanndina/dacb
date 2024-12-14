@@ -1,0 +1,668 @@
+.section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #ff8800; /* Couleur orange */
+    position:center;
+ width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+   background-color: #ff8800;
+    /* Ajustez l'espacement selon vos besoins */
+}
+.service-icon i {
+            color: #ff8800;
+        }
+
+
+    
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.badge-primary {
+  background-color: #6f42c1; /* Couleur violette */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.badge-secondary {
+  background-color: #8e44ad; /* Couleur pour le badge secondaire */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-text.text-muted {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.text-primary {
+  color: #ff8800;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+   
+
+
+
+      .navbar {
+    background-color: white; 
+     /* Ajustez cet espace en fonction de la hauteur de l'en-tête .bg-orange */
+    position: fixed;
+    top: 40px; /* Positionner la navbar juste sous la barre supérieure */
+    width: 100%;
+    z-index: 999; /* La navbar est juste sous la barre supérieure */
+    background-color: white;/* Fond blanc */
+}
+
+.navbar-brand {
+    color: black; /* Texte en noir */
+    font-weight: bold;
+    font-size:1.5rem; 
+     /* Optionnel : pour rendre le texte plus visible */
+
+}
+.content {
+    margin-top: 120px; /* Ajustez cette valeur selon la hauteur de votre en-tête fixe */
+}
+
+ .bg-orange {
+            background-color: #ff8800;
+             position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000
+         
+        }
+
+
+
+
+        .navbar-nav .nav-link {
+            color: #333;
+            font-weight: bold;
+             font-size: 1.1rem;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #333;
+        }
+        .btn-quote {
+            background-color: #ff8800;
+            color: #fff;
+            font-weight: bold;
+              padding: 13px 28px;
+        }
+  
+   @keyframes slide {
+    0% {
+        background-position: 100% center;
+    }
+    100% {
+        background-position: 0% center;
+    }
+}
+.about-section {
+            background-color: white; /* Matches the blue background */
+            color: black;b
+            padding: 50px 0;
+        }
+       /* Styling for the title and subtitle */
+        .about-title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .about-subtitle {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        /* Styling for the button */
+        .contact-button {
+            background-color: #fff;
+            color: #00AEEF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .contact-button:hover {
+            text-decoration: none;
+            background-color: #f0f0f0;
+        }
+
+ .about-section .col-md-6 img {
+    width: 100%; /* pour que l'image s'ajuste horizontalement */
+    height: 300%; /* pour qu'elle couvre toute la hauteur de la colonne */
+    object-fit: cover; /* pour ajuster l'image sans distorsion */
+}
+.about-section4 .col-md-6 img {
+    width: 100%; /* pour que l'image s'ajuste horizontalement */
+    height: 300%; /* pour qu'elle couvre toute la hauteur de la colonne */
+    object-fit: cover; /* pour ajuster l'image sans distorsion */
+}
+
+
+
+
+
+.header-section {
+    position: relative;
+    color: white;
+    padding: 250px 0;
+    height: 800px;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Met la vidéo derrière le texte */
+    overflow: hidden;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     opacity: 1; /* Assure que la vidéo couvre toute la section */
+}
+.header-section {
+    position: relative;
+    color: white;
+    padding: 250px 0;
+    height: 800px;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Met la vidéo derrière le texte */
+    overflow: hidden;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo couvre toute la section */
+}
+
+
+
+
+         .header-section1 {
+            background-color:white;  /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            color:white ;
+            height: 700px;
+            text-align: left;
+          
+        }
+         .header-section2 {
+            background-color:blue;  /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            color:white ;
+            height: 700px;
+            text-align: left;
+          
+        }
+
+         .header-section3 {
+            background-color:white;  /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            color:white ;
+            height: 700px;
+            text-align: left;
+          
+        }
+         .header-section4 {
+            background-color:green;  /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            color:white ;
+            height: 700px;
+            text-align: left;
+          
+        }
+         .header-section1 h1{
+         
+            color:#ff8800 ;
+            font-size: 37px;
+            font-weight: bold;
+        
+            padding: 50px 0;
+        }
+        .header-section2 h1{
+         
+            color:#ff8800 ;
+            font-size: 37px;
+            font-weight: bold;
+        
+            padding: 50px 0;
+        }
+        .header-section3 h1{
+         
+            color:#ff8800 ;
+            font-size: 37px;
+            font-weight: bold;
+        
+            padding: 50px 0;
+        }
+        .header-section4 h1{
+         
+            color:#ff8800 ;
+            font-size: 37px;
+            font-weight: bold;
+        
+            padding: 50px 0;
+        }
+
+        .header-section1 p{
+
+        }
+.header-section .container .h6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    /* Aligner les éléments au début (à gauche) */
+}
+
+
+.footer{
+     background-color:#ff8800 ; 
+
+}
+.footer 
+{
+     background-color:#ff8800 ;
+} 
+
+
+.header-section p {
+    
+     font-size: 18px;
+    
+}
+.header-section p {
+    font-size: 18px;
+}
+ .navbar-nav .nav-item .nav-link {
+    margin-right: 12px; /* Espace entre les éléments de la liste de navigation */
+}
+       
+
+
+        .btn-start,
+        .btn-contact {
+            font-weight: bold;
+        }
+        .btn-start {
+            background-color: #ff8800;
+            color: white;
+            
+        }
+        .btn-contact {
+            background-color: white;
+            color: #ff8800;
+            
+        }
+    #navbarNav
+    {
+      margin-right: 2px  
+    }
+    .header-section .container h6 {
+   font-style: italic;
+}
+
+
+.about-section {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: black;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.about-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+.btn-primary {
+    
+
+    padding: 10px 240px;
+}
+
+.btn-primary:hover {
+   
+    
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #1A1A1A; /* Couleur sombre */
+  padding: 40px;
+  color: #FFFFFF;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff8800;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.footer-column {
+  max-width: 220px;
+  margin: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff8800; /* Ligne jaune sous le titre */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 10px 0;
+}
+
+.footer-column ul li a {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Newsletter Form Styling */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.newsletter-form .recaptcha-placeholder {
+  background-color: #FFFFFF;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.newsletter-form button {
+  background-color:  #ff8800;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #007EA7;
+}
+
+.btn-primary:focus {
+    outline: none;
+    box-shadow: none;
+}
+ .col-md-5.contact-info {
+        background-color: #ff8800; /* Couleur d'arrière-plan orange */
+        
+        border-radius: 8px 0 0 8px; /* Bords arrondis gauche */
+        color: white;
+        font-size: 16px;
+        margin-top: -13px;
+        margin-bottom:-13px;
+
+    }
+
+
+
+.contact-info {
+            background-color: #ff8800; /* Orange color */
+            padding: 30px;
+            color: white;
+            font-size: 16px;
+        }
+        .contact-info h3 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: white;
+        }
+        .contact-form {
+            padding: 30px;
+        }
+        .form-control:focus {
+            border-color:  #ff8800;
+            box-shadow: 0 0 5px #ff8800;
+        }
+        .btn-submit {
+            background-color: #ff8800;;
+            color: white;
+            border: none;
+        }
+        .btn-submit:hover {
+            background-color: #cc8400;
+        }
+        .service-description
+        {
+            text-align:center;
+        }
+
+        /* Style pour les cartes de service */
+.service-card {
+    background-color: white;
+    border: 2px solid orange; /* Bordure orange */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering content horizontally */
+    justify-content: flex-start; /* Aligning content at the top */
+    text-align: center;
+
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée au survol */
+}
+
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    width: 50px;
+    height: auto;
+    position:center;
+}
+
+.services-section {
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.back
+{
+    background-color: white;
+    color:black;
+    margin-top:0px;
+
+    height: 150%;
+          /* Fond semi-transparent */
+        padding: 20px;
+        border-radius: 8px; /* Arrondir les bords */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+
+    
+
+}
+.text-primary
+{
+    color:#ff8800;
+}
+.section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .service-card {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.5); /* Orange shadow */
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+    .service-icon {
+      font-size: 2rem;
+      color: #ff4500; /* Icon color (orange) */
+      margin-bottom: 15px;
+    }
+    .service-number {
+      font-size: 1.5rem;
+      color: #ff4500;
+      font-weight: bold;
+      position: absolute;
+      bottom: 15px;
+      right: 20px;
+    }
+    .read-more {
+      color: #ff4500;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+.about-section .container
+{
+    padding:90px;
+}
+.about-section4 .container {
+        padding: 20px; /* Ajuste l'espace autour du formulaire */
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.5rem; /* Réduit la taille des titres */
+    }
+
+    .contact-info p,
+    .social-icons i {
+        font-size: 0.9rem; /* Réduit la taille des textes dans la section de contact */
+        margin-bottom: 8px; /* Réduit les marges entre les éléments */
+    }
+
+    .contact-form label {
+        font-size: 0.85rem; /* Réduit la taille des étiquettes de formulaire */
+    }
+
+    .contact-form .form-control {
+        padding: 5px; /* Réduit l'espace à l'intérieur des champs de saisie */
+        font-size: 0.9rem; /* Réduit la taille du texte dans les champs de formulaire */
+    }
+
+    .contact-form textarea {
+        height: 80px; /* Limite la hauteur du champ de texte */
+    }
+
+    .btn-submit {
+        padding: 6px 12px; /* Réduit la taille du bouton */
+        font-size: 0.9rem;
+    }
+
+
+

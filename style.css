@@ -1,0 +1,44 @@
+
+        /* Navbar */
+        .navbar {
+            background-color: #ff8800;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #333;
+        }
+        .btn-quote {
+            background-color: #ff8800;
+            color: #fff;
+            font-weight: bold;
+        }
+        .header-section {
+            background: #003366;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .header-section h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .header-section p {
+            font-size: 18px;
+        }
+        .btn-start,
+        .btn-contact {
+            font-weight: bold;
+        }
+        .btn-start {
+            background-color: #ff8800;
+            color: white;
+        }
+        .btn-contact {
+            background-color: white;
+            color: #ff8800;
+            border: 2px solid #ff8800;
+        }
+    
